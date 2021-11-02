@@ -63,7 +63,8 @@ namespace ChallengeLeanTechJA
 
         private static void MatrizDiagonals()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("It was not implemented, please press any key to exit");
+            Console.ReadLine();
         }
 
         static void Multiples()
@@ -77,17 +78,19 @@ namespace ChallengeLeanTechJA
             {
                 if (i % 3 == 0)
                 {
-                     sumaMultiplo = sumaMultiplo + i;
+                    Console.WriteLine($"(Multiple of 3 -> {i})");
+                    sumaMultiplo +=  i;
                 }
                 else
                 {
                     if (i % 5 == 0)
                     {
+                        Console.WriteLine($"(Multiple of 5 -> {i})");
                         sumaMultiplo = sumaMultiplo + i;
                     }
                 }
             }
-            Console.WriteLine(sumaMultiplo);
+            Console.WriteLine($"La suma de los multiplos de 3 o 5 es: {sumaMultiplo}");
             Console.ReadLine();
         }
 
