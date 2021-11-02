@@ -90,7 +90,7 @@ namespace ChallengeLeanTechJA
                     }
                 }
             }
-            Console.WriteLine($"La suma de los multiplos de 3 o 5 es: {sumaMultiplo}");
+            Console.WriteLine($"The sum of the multiples of 3 or 5 is: { sumaMultiplo}");
             Console.ReadLine();
         }
 
@@ -146,12 +146,12 @@ namespace ChallengeLeanTechJA
         {
 
             Employee employee1 = new Employee { Id = 1, Name = "Jhonny A.", Address = "Street 5 avenue Lean", Age = 40, Salary = 2200 } ;
-            Employee employee2 = new Employee { Id = 2, Name = "Jhonny A.", Address = "Street 5 avenue Lean", Age = 40, Salary = 2200 };
-            Employee employee3 = new Employee { Id = 3, Name = "Jhonny A.", Address = "Street 5 avenue Lean", Age = 40, Salary = 2200 };
+            Employee employee2 = new Employee { Id = 2, Name = "Ruth C.", Address = "Street 15 avenue Chile", Age = 35, Salary = 1700 };
+            Employee employee3 = new Employee { Id = 3, Name = "Juan P.", Address = "Street 24 avenue Spring", Age = 23, Salary = 1500 };
 
-            Customer customer1 = new Customer { Id = 1, Name = "Jhonny A.", Address = "Street 5 avenue Lean", Age = 40, PricesListId = 1};
-            Customer customer2 = new Customer { Id = 2, Name = "Jhonny A.", Address = "Street 5 avenue Lean", Age = 40, PricesListId = 1 };
-            Customer customer3 = new Customer { Id = 3, Name = "Jhonny A.", Address = "Street 5 avenue Lean", Age = 40, PricesListId = 1 };
+            Customer customer1 = new Customer { Id = 1, Name = "Pedro P.", Address = "Street 3 avenue SW", Age = 53, PricesListId = 1};
+            Customer customer2 = new Customer { Id = 2, Name = "Jose C.", Address = "Street 18 avenue Oconor", Age = 31, PricesListId = 1 };
+            Customer customer3 = new Customer { Id = 3, Name = "Carlos P.", Address = "Street 28 avenue South", Age = 35, PricesListId = 1 };
 
         }
     }
